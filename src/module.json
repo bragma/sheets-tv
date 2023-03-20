@@ -1,7 +1,7 @@
 {
 	"id": "sheets-tv",
-	"title": "Typescript Template Module",
-	"description": "A template module using Typescript. You should change name, title, and description in module.json.",
+	"title": "Mini Sheets on TV",
+	"description": "",
 	"version": "1.0.0",
 	"packs": [],
 	"system": [],

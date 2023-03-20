@@ -9,14 +9,13 @@ const githubTag = process.env.GH_TAG;
 
 export default defineConfig({
 	build: {
-		sourcemap: true,
 		rollupOptions: {
 			input: "src/ts/module.ts",
 			output: {
 				dir: "dist",
 				entryFileNames: "scripts/module.js",
 				//file: "dist/scripts/module.js",
-				format: "es",
+				format: "es"
 			},
 		},
 	},
@@ -24,7 +23,6 @@ export default defineConfig({
 		updateModuleManifestPlugin(),
 		scss({
 			fileName: "style.css",
-			sourceMap: true,
 			watch: ["src/styles/*.scss"],
 		}),
 		copy({
